@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Innexus.SmartFactory.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Innexus.SmartFactory.Web.Infrastructure.Extensions;
 
 namespace Innexus.SmartFactory.Web
 {
@@ -37,7 +38,7 @@ namespace Innexus.SmartFactory.Web
 
             services.AddDbContext<SFDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString()));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<SFDbContext>();
@@ -48,17 +49,7 @@ namespace Innexus.SmartFactory.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+            app.UseException(env);
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -66,12 +57,7 @@ namespace Innexus.SmartFactory.Web
 
             app.UseAuthentication();
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            app.UseRoutes();
         }
     }
 }

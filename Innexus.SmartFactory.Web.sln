@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innexus.SmartFactory.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innexus.SmartFactory.Data", "Innexus.SmartFactory.Data\Innexus.SmartFactory.Data.csproj", "{B4D049A1-9462-4402-9EC5-0CBA0F6BF49C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innexus.SmartFactory.Services", "Innexus.SmartFactory.Services\Innexus.SmartFactory.Services.csproj", "{5B0C26F0-CF66-4785-BC33-6DF669A01B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innexus.SmartFactory.Utilities", "Innexus.SmartFactory.Utilities\Innexus.SmartFactory.Utilities.csproj", "{BB6FEAFE-FF49-4DBC-BF6C-429D1DEF8181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B4D049A1-9462-4402-9EC5-0CBA0F6BF49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D049A1-9462-4402-9EC5-0CBA0F6BF49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D049A1-9462-4402-9EC5-0CBA0F6BF49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0C26F0-CF66-4785-BC33-6DF669A01B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0C26F0-CF66-4785-BC33-6DF669A01B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0C26F0-CF66-4785-BC33-6DF669A01B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0C26F0-CF66-4785-BC33-6DF669A01B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6FEAFE-FF49-4DBC-BF6C-429D1DEF8181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6FEAFE-FF49-4DBC-BF6C-429D1DEF8181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6FEAFE-FF49-4DBC-BF6C-429D1DEF8181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6FEAFE-FF49-4DBC-BF6C-429D1DEF8181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

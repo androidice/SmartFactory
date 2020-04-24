@@ -1,0 +1,8 @@
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.deps.json
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.dll
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.pdb
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.dll
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.pdb
