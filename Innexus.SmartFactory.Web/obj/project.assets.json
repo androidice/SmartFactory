@@ -4438,6 +4438,44 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Innexus.SmartFactory.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Innexus.SmartFactory.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Innexus.SmartFactory.Data.dll": {}
+        }
+      },
+      "Innexus.SmartFactory.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Innexus.SmartFactory.Data": "1.0.0",
+          "Innexus.SmartFactory.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Innexus.SmartFactory.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Innexus.SmartFactory.Services.dll": {}
+        }
+      },
+      "Innexus.SmartFactory.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Innexus.SmartFactory.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Innexus.SmartFactory.Utilities.dll": {}
+        }
       }
     }
   },
@@ -12080,10 +12118,28 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Innexus.SmartFactory.Data/1.0.0": {
+      "type": "project",
+      "path": "../Innexus.SmartFactory.Data/Innexus.SmartFactory.Data.csproj",
+      "msbuildProject": "../Innexus.SmartFactory.Data/Innexus.SmartFactory.Data.csproj"
+    },
+    "Innexus.SmartFactory.Services/1.0.0": {
+      "type": "project",
+      "path": "../Innexus.SmartFactory.Services/Innexus.SmartFactory.Services.csproj",
+      "msbuildProject": "../Innexus.SmartFactory.Services/Innexus.SmartFactory.Services.csproj"
+    },
+    "Innexus.SmartFactory.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Innexus.SmartFactory.Utilities/Innexus.SmartFactory.Utilities.csproj",
+      "msbuildProject": "../Innexus.SmartFactory.Utilities/Innexus.SmartFactory.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Innexus.SmartFactory.Data >= 1.0.0",
+      "Innexus.SmartFactory.Services >= 1.0.0",
+      "Innexus.SmartFactory.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12118,7 +12174,17 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Data\\Innexus.SmartFactory.Data.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Data\\Innexus.SmartFactory.Data.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Services\\Innexus.SmartFactory.Services.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Services\\Innexus.SmartFactory.Services.csproj"
+            },
+            "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Utilities\\Innexus.SmartFactory.Utilities.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\Innexus\\Innexus.SmartFactory.Web\\Innexus.SmartFactory.Utilities\\Innexus.SmartFactory.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

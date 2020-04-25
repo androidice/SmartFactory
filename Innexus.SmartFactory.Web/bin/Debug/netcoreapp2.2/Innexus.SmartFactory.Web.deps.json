@@ -24,6 +24,9 @@
     ".NETCoreApp,Version=v2.2": {
       "Innexus.SmartFactory.Web/1.0.0": {
         "dependencies": {
+          "Innexus.SmartFactory.Data": "1.0.0",
+          "Innexus.SmartFactory.Services": "1.0.0",
+          "Innexus.SmartFactory.Utilities": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0"
@@ -33,6 +36,38 @@
         },
         "compile": {
           "Innexus.SmartFactory.Web.dll": {}
+        }
+      },
+      "Innexus.SmartFactory.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0"
+        },
+        "runtime": {
+          "Innexus.SmartFactory.Data.dll": {}
+        },
+        "compile": {
+          "Innexus.SmartFactory.Data.dll": {}
+        }
+      },
+      "Innexus.SmartFactory.Services/1.0.0": {
+        "dependencies": {
+          "Innexus.SmartFactory.Data": "1.0.0",
+          "Innexus.SmartFactory.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Innexus.SmartFactory.Services.dll": {}
+        },
+        "compile": {
+          "Innexus.SmartFactory.Services.dll": {}
+        }
+      },
+      "Innexus.SmartFactory.Utilities/1.0.0": {
+        "runtime": {
+          "Innexus.SmartFactory.Utilities.dll": {}
+        },
+        "compile": {
+          "Innexus.SmartFactory.Utilities.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3233,6 +3268,21 @@
   },
   "libraries": {
     "Innexus.SmartFactory.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Innexus.SmartFactory.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Innexus.SmartFactory.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Innexus.SmartFactory.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

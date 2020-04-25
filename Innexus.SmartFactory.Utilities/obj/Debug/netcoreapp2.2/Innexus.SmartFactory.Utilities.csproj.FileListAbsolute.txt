@@ -6,3 +6,4 @@ C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Uti
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.AssemblyInfo.cs
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.dll
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.pdb
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Utilities\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.csprojAssemblyReference.cache

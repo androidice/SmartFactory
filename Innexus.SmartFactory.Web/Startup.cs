@@ -14,6 +14,7 @@ using Innexus.SmartFactory.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Innexus.SmartFactory.Web.Infrastructure.Extensions;
+using Innexus.SmartFactory.Data.Models;
 
 namespace Innexus.SmartFactory.Web
 {
@@ -39,9 +40,11 @@ namespace Innexus.SmartFactory.Web
             services.AddDbContext<SFDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString()));
-            services.AddDefaultIdentity<IdentityUser>()
+
+            services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<SFDbContext>();
+                .AddEntityFrameworkStores<SFDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

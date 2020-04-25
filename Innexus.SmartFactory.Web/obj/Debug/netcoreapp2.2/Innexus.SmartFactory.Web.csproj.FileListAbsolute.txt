@@ -29,3 +29,10 @@ C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Web.dll
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Web.pdb
 C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Web.csproj.CopyComplete
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Data.dll
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Services.dll
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.dll
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Data.pdb
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Services.pdb
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\bin\Debug\netcoreapp2.2\Innexus.SmartFactory.Utilities.pdb
+C:\Users\kevin\Desktop\Innexus\Innexus.SmartFactory.Web\Innexus.SmartFactory.Web\obj\Debug\netcoreapp2.2\Innexus.SmartFactory.Web.csprojAssemblyReference.cache

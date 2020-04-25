@@ -12,4 +12,16 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Innexus.SmartFactory.Data\Innexus.SmartFactory.Data.csproj" />
+    <ProjectReference Include="..\Innexus.SmartFactory.Services\Innexus.SmartFactory.Services.csproj" />
+    <ProjectReference Include="..\Innexus.SmartFactory.Utilities\Innexus.SmartFactory.Utilities.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+
 </Project>
