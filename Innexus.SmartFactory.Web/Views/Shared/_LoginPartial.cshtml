@@ -21,7 +21,10 @@
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            @Html.ActionLink("Login",
+                            Innexus.SmartFactory.Web.Infrastructure.Section.Actions.LOGIN,
+                            Innexus.SmartFactory.Web.Infrastructure.Section.Controllers.ACCOUNT,
+                            null, new { @class= "nav-link text-dark" })
         </li>
     }
 </ul>

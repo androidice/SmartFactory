@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Innexus.SmartFactory.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Innexus.SmartFactory.Web.Controllers
 {
@@ -12,6 +13,11 @@ namespace Innexus.SmartFactory.Web.Controllers
     {
         public IActionResult Index()
         {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Pages() {
             return View();
         }
 

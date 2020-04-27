@@ -1,0 +1,35 @@
+﻿@model LoginFormModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Login</h1>
+
+@using (Html.BeginForm(Actions.LOGIN, Controllers.ACCOUNT, FormMethod.Post))
+{
+    @Html.ValidationSummary(false,"", new { @class = "text-danger"})
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserName)
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Enter Username" })
+        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password)
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+        <small id="emailHelp" class="form-text text-muted">
+            <ul>
+                <li>Password must be at least 8 characters of length</li>
+                <li>Password must contain uper-case and lower-case letters</li>
+                <li>Password must contain at least 1 special character</li>
+                <li>Password must contain at least 1 number</li>
+            </ul>
+        </small>
+    </div>
+    <div class="form-group form-check">
+        @Html.CheckBoxFor(m => m.Remember)
+        @Html.LabelFor(m => m.Remember, new { @class = "form-check-label" })
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+}

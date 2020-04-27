@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Innexus.SmartFactory.Data.Models;
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    bool isSignIn = SignInManager.IsSignedIn(User);
+}
+
+@if (isSignIn)
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Pages">Pages</a>
+    </li>
+}
+
